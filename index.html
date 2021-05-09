@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)classList">
+    <script src="java.js"></script>
+    <title>Projeto M</title>
+</head>
+<body >
+    <header>
+        <section class="contPresentation">
+            <div class="title1">Scenes</div>
+            <div id="Name" class="boxListPre">
+                <div class="cenas">nova cena</div>
+            </div>
+            <div class="foot1"><button class="buttonAddPre"  onclick="adicionar()">+</button></div>
+        </section>
+        <section id="preview">
+            
+        </section>
+        <section class="contPresentation">
+            <div class="title1">Contents</div>
+            <div class="boxListPre"></div>
+            <div class="foot1"><button onclick="add" class="buttonAddPre" id="pageadd2">+</button></div>
+        </section>
+    </header>
+    <main>
+
+        <section class="contInformation">
+            <div class="title2">Portion</div>
+            <div class="boxListInfo"></div>
+            <div class="foot2"><button class="buttonAddPre" id="pageadd3">+</button></div>
+        </section>
+        <section class="contInformation">
+            <div class="title2">Sources</div>
+            <div class="boxListInfo"></div>
+            <div class="foot2"><button class="buttonAddPre" id="pageadd4">+</button></div>
+        </section>
+        <section class="contSettings">
+            <div class="title3">Settings</div>
+            <div class="boxListSett"></div>
+        </section>
+
+
+
+    </main>
+    <section class="hello" id="adicionar" >
+        <div class="contAddName">
+            <button onclick="remover()" class="remove">x</button>
+            <input id="txt" type="text"  value="" placeholder="Adicionar nome" required>
+            <button id="add" class="bnt-list" onclick="criar()">Criar</button>
+        </div>
+
+    </section>
+    
+</body>
+</html>
